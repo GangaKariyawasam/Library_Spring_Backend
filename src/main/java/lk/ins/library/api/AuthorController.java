@@ -1,4 +1,4 @@
-package lk.ins.library.api.Exception;
+package lk.ins.library.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 public class AuthorController {
-    package lk.ins.library.api;
 
 import lk.ins.library.business.custom.AuthorBO;
 import lk.ins.library.business.util.EntityDTOMapper;
